@@ -1,7 +1,7 @@
 #! /bin/bash
-apt update
-apt install python3
-apt install python3-pip
+sudo apt update
+sudo apt install python3
+sudo apt install python3-pip
 pip install -r requirements.txt
 python3 -m nltk.download stopwords
 python3 -m nltk.download punkt
